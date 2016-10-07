@@ -491,6 +491,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2009650200}
   - 135: {fileID: 2009650199}
+  - 114: {fileID: 2009650201}
   m_Layer: 0
   m_Name: Slingshot
   m_TagString: Untagged
@@ -527,6 +528,17 @@ Transform:
   - {fileID: 335701920}
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!114 &2009650201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2009650198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb5b68b0c93e7f499f107aca9f0432b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2088778119
 GameObject:
   m_ObjectHideFlags: 0
