@@ -440,6 +440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832119263bcc77b4ead1ab9252c44dcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  easing: 0.05
+  minXY: {x: 0, y: 0}
   ________________________: 0
   poi: {fileID: 0}
   camZ: 0
