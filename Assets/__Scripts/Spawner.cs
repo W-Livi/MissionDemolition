@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour {
     public GameObject prefabSpawnee;
 
     // Use this for initialization
-    void Start () {
+    void Awake () {
         GameObject tGO = Instantiate(prefabSpawnee) as GameObject;
         tGO.transform.SetParent(transform.parent);
         tGO.transform.localPosition = transform.localPosition;
