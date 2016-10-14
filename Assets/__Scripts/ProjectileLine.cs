@@ -93,13 +93,14 @@ public class ProjectileLine : MonoBehaviour {
         if (poi == null) {
             // If there is no poi, search for one
             if (FollowCam.S.poi != null) {
-                poi = FollowCam.S.poi;
+                if (FollowCam.S.poi.tag == "Projectile") {
+                    poi = FollowCam.S.poi;
+                } else {
+                    return; // Return if we didn't find a poi
+                }
             } else {
                 return; // Return if we didn't find a poi
             }
-        } else {
-            // The following line appears to represent an error in the textbook
-            //return; // Return if we didn't find a poi
         }
 
         // If there is a poi, its loc is added every FixedUpdate
